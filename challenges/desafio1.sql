@@ -92,16 +92,16 @@ CREATE TABLE IF NOT EXISTS songs (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 INSERT INTO `songs` (`album_id`, `track`, `release_year`, `duration`) VALUES
-	('1', '"BREAK MY SOUL"', '2022', '279'),
-	('1', '"VIRGO\'S GROOVE"', '2022', '369'),
-	('1', '"ALIEN SUPERSTAR"', '2022', '116'),
-	('2', '"Don\'t Stop Me Now"', '1978', '203'),
-	('3', '"Under Pressure"', '1982', '152'),
-	('4', '"Como Nossos Pais"', '1998', '105'),
-	('5', '"O Medo de Amar é o Medo de Ser Livre"', '2001', '207'),
-	('6', '"Samba em Paris"', '2003', '267'),
+	('1', 'BREAK MY SOUL', '2022', '279'),
+	('1', "VIRGO\'S GROOVE", '2022', '369'),
+	('1', 'ALIEN SUPERSTAR', '2022', '116'),
+	('2', "Don\'t Stop Me Now", '1978', '203'),
+	('3', 'Under Pressure', '1982', '152'),
+	('4', 'Como Nossos Pais', '1998', '105'),
+	('5', 'O Medo de Amar é o Medo de Ser Livre', '2001', '207'),
+	('6', 'Samba em Paris', '2003', '267'),
 	('7', "The Bard\'s Song", '2007', '244'),
-	('8', '"Feeling Good"', '2012', '100');
+	('8', 'Feeling Good', '2012', '100');
 
 CREATE TABLE IF NOT EXISTS following (
   artists_id INT NOT NULL,
