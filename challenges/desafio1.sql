@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS subscription_plan (
 )  ENGINE=INNODB;
 INSERT INTO subscription_plan (`type`, `value`)
 VALUES
-('gratuito', '0'),
+('gratuito', '0.00'),
 ('familiar', '7.99'),
 ('universitário', '5.99'),
 ('pessoal', '6.99');
